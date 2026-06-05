@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>彭情 · 海外OA/CRM运维项目经理 — 个人简历</title>
+  <title data-i18n="page_title">彭情 · 海外OA/CRM运维项目经理 — 个人简历</title>
   <meta name="description" content="彭情（Peng Qing）— 海外OA/CRM运维项目经理 / 客户成功经理。5年项目管理与客户成功经验，PMP认证，英语专八。" />
   <meta name="author" content="彭情 Peng Qing" />
   <meta property="og:title" content="彭情 · 海外OA/CRM运维项目经理" />
@@ -23,16 +23,19 @@
 
   <!-- ==================== NAV ==================== -->
   <nav class="nav">
-    <div class="nav-brand">彭情<span>PENG QING</span></div>
+    <div class="nav-brand"><span data-i18n="nav_brand">彭情</span><span>PENG QING</span></div>
     <div class="nav-links">
-      <a href="#about" data-num="01">定位</a>
-      <a href="#works" data-num="02">项目</a>
-      <a href="#experience" data-num="03">经历</a>
-      <a href="#capability" data-num="04">能力</a>
-      <a href="#credentials" data-num="05">资质</a>
-      <a href="#contact" data-num="06">联系</a>
+      <a href="#about" data-num="01" data-i18n="nav_about">定位</a>
+      <a href="#works" data-num="02" data-i18n="nav_works">项目</a>
+      <a href="#experience" data-num="03" data-i18n="nav_exp">经历</a>
+      <a href="#capability" data-num="04" data-i18n="nav_cap">能力</a>
+      <a href="#credentials" data-num="05" data-i18n="nav_cred">资质</a>
+      <a href="#contact" data-num="06" data-i18n="nav_contact">联系</a>
     </div>
-    <span class="nav-status">OPEN TO WORK</span>
+    <div class="nav-right">
+      <button class="lang-switch" id="langToggle" data-i18n="lang_btn" onclick="toggleLang()">EN</button>
+      <span class="nav-status" data-i18n="nav_status">OPEN TO WORK</span>
+    </div>
   </nav>
 
   <!-- ==================== HERO ==================== -->
@@ -67,15 +70,15 @@
     <div class="hero-meta reveal">
       <span><span class="key">REF.</span> PQ-CV-2026</span>
       <span class="sep">/</span>
-      <span>海外OA/CRM运维项目经理</span>
+      <span data-i18n="hero_meta_title">海外OA/CRM运维项目经理</span>
       <span class="sep">/</span>
-      <span>苏州 · SUZHOU</span>
+      <span data-i18n="hero_meta_loc">苏州 · SUZHOU</span>
     </div>
 
     <p class="hero-name-en reveal">Peng Qing</p>
     <h1 class="hero-name-cn reveal">彭情<span class="accent-letter">PMP</span></h1>
 
-    <p class="hero-tagline reveal">
+    <p class="hero-tagline reveal" data-i18n="hero_tagline">
       五年项目管理与客户成功实战 · 从<em>海外运维</em>到<em>全球知识管理</em>，<br/>
       用<em>英语</em><span class="x">×</span><em>项目管理</em><span class="x">×</span><em>客户成功</em> 驱动全球化产品落地与价值交付。
     </p>
@@ -83,19 +86,19 @@
     <div class="hero-stats reveal">
       <div class="hero-stat">
         <span class="num">5<sup>+</sup></span>
-        <span class="label-cn">年项目管理经验</span>
+        <span class="label-cn" data-i18n="hero_stat1">年项目管理经验</span>
       </div>
       <div class="hero-stat">
         <span class="num">9<sup>万</sup></span>
-        <span class="label-cn">系统服务用户</span>
+        <span class="label-cn" data-i18n="hero_stat2">系统服务用户</span>
       </div>
       <div class="hero-stat">
         <span class="num">95<sup>%</sup></span>
-        <span class="label-cn">客户满意度</span>
+        <span class="label-cn" data-i18n="hero_stat3">客户满意度</span>
       </div>
       <div class="hero-stat">
         <span class="num">4<sup>CERT</sup></span>
-        <span class="label-cn">PMP · 专八 · 专四 · CET</span>
+        <span class="label-cn" data-i18n="hero_stat4">PMP · 专八 · 专四 · CET</span>
       </div>
     </div>
   </header>
@@ -105,9 +108,9 @@
     <div class="section-tag reveal">
       <span class="num">[ 01 ]</span>
       <span>POSITIONING</span>
-      <span class="label-cn">定 位</span>
+      <span class="label-cn" data-i18n="about_tag">定 位</span>
       <span class="spacer"></span>
-      <span class="meta">PHOTO · VIDEO · 003</span>
+      <span class="meta" data-i18n="about_tag_meta">PHOTO · VIDEO · 003</span>
     </div>
 
     <!-- Profile Media Row: Photo + Video -->
@@ -119,47 +122,47 @@
         <div class="video-container">
           <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=1200000000&bvid=BV1xx411c7mD&cid=1500000000&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
         </div>
-        <p class="video-caption">▶ 自我介绍视频 · 3 分钟了解我</p>
+        <p class="video-caption" data-i18n="about_video_cap">▶ 自我介绍视频 · 3 分钟了解我</p>
       </div>
     </div>
 
     <div class="about-grid">
-      <h2 class="about-headline reveal">
+      <h2 class="about-headline reveal" data-i18n="about_headline">
         把<span class="pull">客户现场需求</span>，<br/>
         转化为可<span class="pull">交付、可复制</span>的<br/>
         全球化产品解决方案。
       </h2>
 
       <div class="about-body reveal">
-        <p>5 年项目管理与客户成功经验，从北森云计算到纬创软件，长期专注于 <strong>OA/CRM 海外运维</strong>与 <strong>HR 系统全生命周期服务</strong>。以英语为工作语言，主导过多个从零到一的全球化项目落地，覆盖欧洲、新加坡、日本、美国等区域。</p>
-        <p>擅长在客户需求与技术实现之间找到最佳平衡点——<strong>从需求拆解、方案设计、跨团队协同到交付验收与知识沉淀</strong>。PMP 认证，英语专业八级，具备深厚的跨文化沟通能力与客户成功思维。</p>
-        <p>南昌大学（211/双一流）翻译专业本科。具备优秀的语言表达、文字组织与跨角色协调能力，适合承担海外项目/运维经理、客户成功经理、产品运营等角色。</p>
+        <p data-i18n="about_p1">5 年项目管理与客户成功经验，从北森云计算到纬创软件，长期专注于 <strong>OA/CRM 海外运维</strong>与 <strong>HR 系统全生命周期服务</strong>。以英语为工作语言，主导过多个从零到一的全球化项目落地，覆盖欧洲、新加坡、日本、美国等区域。</p>
+        <p data-i18n="about_p2">擅长在客户需求与技术实现之间找到最佳平衡点——<strong>从需求拆解、方案设计、跨团队协同到交付验收与知识沉淀</strong>。PMP 认证，英语专业八级，具备深厚的跨文化沟通能力与客户成功思维。</p>
+        <p data-i18n="about_p3">南昌大学（211/双一流）翻译专业本科。具备优秀的语言表达、文字组织与跨角色协调能力，适合承担海外项目/运维经理、客户成功经理、产品运营等角色。</p>
       </div>
     </div>
 
     <div class="adv-grid reveal-stagger">
       <div class="adv-card">
         <div class="adv-num">◆ 01 / OVERSEAS PM</div>
-        <div class="adv-title">海外项目实施与运维管理</div>
-        <p class="adv-desc">以英文为工作语言对接欧洲、新加坡、日本、美国等海外客户，负责 OA/CRM 系统的日常运维、需求响应、故障排查与产品优化，建立故障 SOP，平均解决时长缩短至 4 小时。</p>
+        <div class="adv-title" data-i18n="about_adv1_title">海外项目实施与运维管理</div>
+        <p class="adv-desc" data-i18n="about_adv1_desc">以英文为工作语言对接欧洲、新加坡、日本、美国等海外客户，负责 OA/CRM 系统的日常运维、需求响应、故障排查与产品优化，建立故障 SOP，平均解决时长缩短至 4 小时。</p>
         <div class="adv-keys">
-          <span>需求对接</span><span>跨国运维</span><span>SOP</span><span>故障排查</span>
+          <span data-i18n="about_adv1_k1">需求对接</span><span data-i18n="about_adv1_k2">跨国运维</span><span>SOP</span><span data-i18n="about_adv1_k4">故障排查</span>
         </div>
       </div>
       <div class="adv-card">
         <div class="adv-num">◆ 02 / CUSTOMER SUCCESS</div>
-        <div class="adv-title">客户成功与价值交付</div>
-        <p class="adv-desc">具备客户成功运营思维，擅长客户关系维护与深度经营。主导多行业 HR 系统全周期服务，负责客户续约金额达 240 万元，客户满意度从 80% 提升至 95%。</p>
+        <div class="adv-title" data-i18n="about_adv2_title">客户成功与价值交付</div>
+        <p class="adv-desc" data-i18n="about_adv2_desc">具备客户成功运营思维，擅长客户关系维护与深度经营。主导多行业 HR 系统全周期服务，负责客户续约金额达 240 万元，客户满意度从 80% 提升至 95%。</p>
         <div class="adv-keys">
-          <span>客户关系</span><span>续约增购</span><span>分层交付</span><span>价值复盘</span>
+          <span data-i18n="about_adv2_k1">客户关系</span><span data-i18n="about_adv2_k2">续约增购</span><span data-i18n="about_adv2_k3">分层交付</span><span data-i18n="about_adv2_k4">价值复盘</span>
         </div>
       </div>
       <div class="adv-card">
         <div class="adv-num">◆ 03 / KNOWLEDGE MGMT</div>
-        <div class="adv-title">知识体系与培训赋能</div>
-        <p class="adv-desc">搭建本地化 OA/CRM 培训体系，制作 10+ 系统培训手册、策划 8 场线上 workshop，覆盖 80+ 人员。主导智能知识管理系统从 0 到 1 落地，服务用户从 2 万突破至 9 万+。</p>
+        <div class="adv-title" data-i18n="about_adv3_title">知识体系与培训赋能</div>
+        <p class="adv-desc" data-i18n="about_adv3_desc">搭建本地化 OA/CRM 培训体系，制作 10+ 系统培训手册、策划 8 场线上 workshop，覆盖 80+ 人员。主导智能知识管理系统从 0 到 1 落地，服务用户从 2 万突破至 9 万+。</p>
         <div class="adv-keys">
-          <span>培训体系</span><span>知识库</span><span>经验沉淀</span><span>团队赋能</span>
+          <span data-i18n="about_adv3_k1">培训体系</span><span data-i18n="about_adv3_k2">知识库</span><span data-i18n="about_adv3_k3">经验沉淀</span><span data-i18n="about_adv3_k4">团队赋能</span>
         </div>
       </div>
     </div>
@@ -170,17 +173,17 @@
     <div class="section-tag reveal">
       <span class="num">[ 02 ]</span>
       <span>SELECTED WORKS</span>
-      <span class="label-cn">代表项目</span>
+      <span class="label-cn" data-i18n="works_tag">代表项目</span>
       <span class="spacer"></span>
-      <span class="meta">4 OF 10+ · 2021–2026</span>
+      <span class="meta" data-i18n="works_tag_meta">4 OF 10+ · 2021–2026</span>
     </div>
 
     <div class="works-intro reveal">
-      <h2 class="works-title">
+      <h2 class="works-title" data-i18n="works_title">
         <em>四个项目</em>，<br/>
         读出项目管理能力。
       </h2>
-      <p class="works-sub">
+      <p class="works-sub" data-i18n="works_sub">
         从需求调研、方案设计、<br/>
         到跨国协同与交付落地，<br/>
         每个项目都在打磨同一种能力：<br/>
@@ -190,58 +193,58 @@
 
     <div class="work-grid">
 
-      <!-- W1: Featured Large - 智能知识管理系统 -->
+      <!-- W1: Featured Large -->
       <div class="work feat-lg reveal">
         <div class="work-head">
-          <span class="work-tag jade">GLOBAL · 全球化</span>
+          <span class="work-tag jade" data-i18n="works_w1_tag">GLOBAL · 全球化</span>
           <span class="work-arrow">↗</span>
         </div>
-        <h3 class="work-name">智能知识管理系统<br/>全球化落地项目</h3>
-        <p class="work-desc">带领 8 人团队，主导系统从 0 到 1 落地。针对泰国、日本团队多语言需求设计"需求拆解-双语翻译-专家校验-上线验证"四步机制。主导 NLP 算法选型，确保 9 万+ 用户并发稳定运行。智能机器人替代 85% 人工咨询量，年减客服成本 60 万元。</p>
+        <h3 class="work-name" data-i18n="works_w1_name">智能知识管理系统<br/>全球化落地项目</h3>
+        <p class="work-desc" data-i18n="works_w1_desc">带领 8 人团队，主导系统从 0 到 1 落地。针对泰国、日本团队多语言需求设计"需求拆解-双语翻译-专家校验-上线验证"四步机制。主导 NLP 算法选型，确保 9 万+ 用户并发稳定运行。智能机器人替代 85% 人工咨询量，年减客服成本 60 万元。</p>
         <div class="work-foot">
-          <span class="role">PROJECT LEAD · 纬创软件</span>
+          <span class="role" data-i18n="works_w1_role">PROJECT LEAD · 纬创软件</span>
           <span>2024.08–2025.10</span>
         </div>
       </div>
 
-      <!-- W2: Med - OA/CRM海外 -->
+      <!-- W2: Med -->
       <div class="work feat-md reveal">
         <div class="work-head">
-          <span class="work-tag">OVERSEAS</span>
+          <span class="work-tag" data-i18n="works_w2_tag">OVERSEAS</span>
           <span class="work-arrow">↗</span>
         </div>
-        <h3 class="work-name">OA/CRM海外实施<br/>与运维支持</h3>
-        <p class="work-desc">负责欧洲、新加坡、日本、美国等区域 OA/CRM 系统运维。搭建本地化培训体系，制作 10+ 系统手册、6 期培训视频，策划 8 场线上 workshop。系统稳定性从 90% 提升至 95%，客户满意度提升 15 个百分点。</p>
+        <h3 class="work-name" data-i18n="works_w2_name">OA/CRM海外实施<br/>与运维支持</h3>
+        <p class="work-desc" data-i18n="works_w2_desc">负责欧洲、新加坡、日本、美国等区域 OA/CRM 系统运维。搭建本地化培训体系，制作 10+ 系统手册、6 期培训视频，策划 8 场线上 workshop。系统稳定性从 90% 提升至 95%，客户满意度提升 15 个百分点。</p>
         <div class="work-foot">
-          <span class="role">OA/CRM PM · 纬创软件</span>
+          <span class="role" data-i18n="works_w2_role">OA/CRM PM · 纬创软件</span>
           <span>2025.01–2026.03</span>
         </div>
       </div>
 
-      <!-- W3: Half - 联络单合规化 -->
+      <!-- W3: Half -->
       <div class="work feat-half reveal">
         <div class="work-head">
-          <span class="work-tag steel">COMPLIANCE</span>
+          <span class="work-tag steel" data-i18n="works_w3_tag">COMPLIANCE</span>
           <span class="work-arrow">↗</span>
         </div>
-        <h3 class="work-name">联络单合规化<br/>流程优化项目</h3>
-        <p class="work-desc">响应 CEO 战略需求，牵头 5 人专项组完成近 1 年 8 万+ 份联络单数据诊断。合规率从 65% 跃升至 92%，返工率下降 70%，协作周期缩短 35%。制定《联络单合规管理手册》并推广至 3 个新业务线复用。</p>
+        <h3 class="work-name" data-i18n="works_w3_name">联络单合规化<br/>流程优化项目</h3>
+        <p class="work-desc" data-i18n="works_w3_desc">响应 CEO 战略需求，牵头 5 人专项组完成近 1 年 8 万+ 份联络单数据诊断。合规率从 65% 跃升至 92%，返工率下降 70%，协作周期缩短 35%。制定《联络单合规管理手册》并推广至 3 个新业务线复用。</p>
         <div class="work-foot">
-          <span class="role">PROJECT LEAD · 纬创软件</span>
+          <span class="role" data-i18n="works_w3_role">PROJECT LEAD · 纬创软件</span>
           <span>2023.08–2024.07</span>
         </div>
       </div>
 
-      <!-- W4: Half - HR系统全生命周期 -->
+      <!-- W4: Half -->
       <div class="work feat-half reveal">
         <div class="work-head">
-          <span class="work-tag">HR · SAAS</span>
+          <span class="work-tag" data-i18n="works_w4_tag">HR · SAAS</span>
           <span class="work-arrow">↗</span>
         </div>
-        <h3 class="work-name">多行业HR系统<br/>全生命周期服务</h3>
-        <p class="work-desc">主导互联网、消费品等多行业客户 HR 系统全周期管理，设计"分层交付"模式。年度续约金额 240 万元，绩效达成率 98.96%，推动增购超 30 万元。7/8 家客户系统使用率提升至 90% 以上。</p>
+        <h3 class="work-name" data-i18n="works_w4_name">多行业HR系统<br/>全生命周期服务</h3>
+        <p class="work-desc" data-i18n="works_w4_desc">主导互联网、消费品等多行业客户 HR 系统全周期管理，设计"分层交付"模式。年度续约金额 240 万元，绩效达成率 98.96%，推动增购超 30 万元。7/8 家客户系统使用率提升至 90% 以上。</p>
         <div class="work-foot">
-          <span class="role">CSM · 北森云计算</span>
+          <span class="role" data-i18n="works_w4_role">CSM · 北森云计算</span>
           <span>2021.11–2023.08</span>
         </div>
       </div>
@@ -254,17 +257,17 @@
     <div class="section-tag reveal">
       <span class="num">[ 03 ]</span>
       <span>EXPERIENCE</span>
-      <span class="label-cn">工作经历</span>
+      <span class="label-cn" data-i18n="exp_tag">工作经历</span>
       <span class="spacer"></span>
-      <span class="meta">2021 → 2026 · 5+ YEARS</span>
+      <span class="meta" data-i18n="exp_tag_meta">2021 → 2026 · 5+ YEARS</span>
     </div>
 
     <div class="works-intro reveal">
-      <h2 class="works-title">
+      <h2 class="works-title" data-i18n="exp_title">
         两段经历，<br/>
         <em>从客户成功到海外项目管理</em>。
       </h2>
-      <p class="works-sub">
+      <p class="works-sub" data-i18n="exp_sub">
         客户成功经理 → 海外OA/CRM运维项目经理<br/>
         从服务单一客户，到管理全球化系统落地。
       </p>
@@ -284,15 +287,15 @@
               纬创软件有限公司 ↗
             </a>
           </h3>
-          <p class="exp-role">海外OA/CRM运维项目经理 · PM</p>
-          <p class="exp-desc">负责欧洲、新加坡、日本、美国等海外区域 <strong>OA/CRM 系统</strong>的日常运维与项目管理。以英文为工作语言对接客户需求，协同技术团队处理跨国技术问题。主导智能知识管理系统从 0 到 1 全球化落地，带领 8 人团队，服务用户从 2 万突破至 9 万+。推动联络单合规化流程优化，合规率从 65% 提升至 92%。</p>
+          <p class="exp-role" data-i18n="exp_e1_role">海外OA/CRM运维项目经理 · PM</p>
+          <p class="exp-desc" data-i18n="exp_e1_desc">负责欧洲、新加坡、日本、美国等海外区域 <strong>OA/CRM 系统</strong>的日常运维与项目管理。以英文为工作语言对接客户需求，协同技术团队处理跨国技术问题。主导智能知识管理系统从 0 到 1 全球化落地，带领 8 人团队，服务用户从 2 万突破至 9 万+。推动联络单合规化流程优化，合规率从 65% 提升至 92%。</p>
           <div class="exp-highlights">
-            <span class="h-hi">海外运维</span>
-            <span>智能知识管理</span>
-            <span>全球化落地</span>
-            <span>9 万+ 用户</span>
-            <span>合规优化</span>
-            <span>培训体系</span>
+            <span class="h-hi" data-i18n="exp_e1_h1">海外运维</span>
+            <span data-i18n="exp_e1_h2">智能知识管理</span>
+            <span data-i18n="exp_e1_h3">全球化落地</span>
+            <span data-i18n="exp_e1_h4">9 万+ 用户</span>
+            <span data-i18n="exp_e1_h5">合规优化</span>
+            <span data-i18n="exp_e1_h6">培训体系</span>
           </div>
         </div>
       </div>
@@ -309,14 +312,14 @@
               北京北森云计算股份有限公司 ↗
             </a>
           </h3>
-          <p class="exp-role">客户成功经理 · CSM</p>
-          <p class="exp-desc">主导互联网、消费品、旅游等多行业客户的 <strong>HR 系统</strong>全生命周期管理。通过深度挖掘客户痛点输出定制化解决方案，设计"分层交付"模式。建立"服务-续约-增购"闭环机制，年度负责客户续约金额达 <strong>240 万元</strong>，推动增购金额超 30 万元。输出 6 份行业案例并组织团队分享，新人独立服务周期从 3 个月缩短至 1.5 个月。</p>
+          <p class="exp-role" data-i18n="exp_e2_role">客户成功经理 · CSM</p>
+          <p class="exp-desc" data-i18n="exp_e2_desc">主导互联网、消费品、旅游等多行业客户的 <strong>HR 系统</strong>全生命周期管理。通过深度挖掘客户痛点输出定制化解决方案，设计"分层交付"模式。建立"服务-续约-增购"闭环机制，年度负责客户续约金额达 <strong>240 万元</strong>，推动增购金额超 30 万元。输出 6 份行业案例并组织团队分享，新人独立服务周期从 3 个月缩短至 1.5 个月。</p>
           <div class="exp-highlights">
-            <span class="h-hi">续约 240 万</span>
-            <span>分层交付</span>
-            <span>行业案例</span>
-            <span>团队赋能</span>
-            <span>增购 30 万+</span>
+            <span class="h-hi" data-i18n="exp_e2_h1">续约 240 万</span>
+            <span data-i18n="exp_e2_h2">分层交付</span>
+            <span data-i18n="exp_e2_h3">行业案例</span>
+            <span data-i18n="exp_e2_h4">团队赋能</span>
+            <span data-i18n="exp_e2_h5">增购 30 万+</span>
           </div>
         </div>
       </div>
@@ -329,17 +332,17 @@
     <div class="section-tag reveal">
       <span class="num">[ 04 ]</span>
       <span>CAPABILITY</span>
-      <span class="label-cn">能力图谱</span>
+      <span class="label-cn" data-i18n="cap_tag">能力图谱</span>
       <span class="spacer"></span>
-      <span class="meta">6 DIMENSIONS · 5+ YRS</span>
+      <span class="meta" data-i18n="cap_tag_meta">6 DIMENSIONS · 5+ YRS</span>
     </div>
 
     <div class="works-intro reveal">
-      <h2 class="works-title">
+      <h2 class="works-title" data-i18n="cap_title">
         懂项目 / 懂客户 / 懂英语 /<br/>
         <em>用专业能力推动全球化落地</em>。
       </h2>
-      <p class="works-sub">
+      <p class="works-sub" data-i18n="cap_sub">
         能力不只是完成一个项目，<br/>
         而是从需求、方案、执行、交付<br/>
         到复盘沉淀的全链路闭环。
@@ -350,51 +353,51 @@
       <div class="cap-bars">
         <div class="cap-row reveal" style="--w:95%">
           <div class="cap-head">
-            <div class="cap-name">项目管理 <span class="en">Project Management</span></div>
+            <div class="cap-name" data-i18n="cap_r1_name">项目管理 <span class="en">Project Management</span></div>
             <div class="cap-years">5 YRS</div>
           </div>
           <div class="cap-bar"><div class="cap-bar-fill"></div></div>
-          <div class="cap-note">全流程管控 / 跨部门协同 / 风险管控 / 交付验收 / PMP 认证</div>
+          <div class="cap-note" data-i18n="cap_r1_note">全流程管控 / 跨部门协同 / 风险管控 / 交付验收 / PMP 认证</div>
         </div>
         <div class="cap-row reveal" style="--w:92%">
           <div class="cap-head">
-            <div class="cap-name">英语沟通 <span class="en">English Communication</span></div>
+            <div class="cap-name" data-i18n="cap_r2_name">英语沟通 <span class="en">English Communication</span></div>
             <div class="cap-years">5 YRS</div>
           </div>
           <div class="cap-bar"><div class="cap-bar-fill"></div></div>
-          <div class="cap-note">英语专八 / 口语流利 / 英文报告 / 跨文化沟通 / 海外客户对接</div>
+          <div class="cap-note" data-i18n="cap_r2_note">英语专八 / 口语流利 / 英文报告 / 跨文化沟通 / 海外客户对接</div>
         </div>
         <div class="cap-row reveal" style="--w:88%">
           <div class="cap-head">
-            <div class="cap-name">客户成功 <span class="en">Customer Success</span></div>
+            <div class="cap-name" data-i18n="cap_r3_name">客户成功 <span class="en">Customer Success</span></div>
             <div class="cap-years">4 YRS</div>
           </div>
           <div class="cap-bar"><div class="cap-bar-fill"></div></div>
-          <div class="cap-note">客户关系 / 续约增购 / 分层交付 / 价值复盘 / NPS 提升</div>
+          <div class="cap-note" data-i18n="cap_r3_note">客户关系 / 续约增购 / 分层交付 / 价值复盘 / NPS 提升</div>
         </div>
         <div class="cap-row reveal" style="--w:85%">
           <div class="cap-head">
-            <div class="cap-name">OA/CRM 系统 <span class="en">OA & CRM Systems</span></div>
+            <div class="cap-name" data-i18n="cap_r4_name">OA/CRM 系统 <span class="en">OA & CRM Systems</span></div>
             <div class="cap-years">3 YRS</div>
           </div>
           <div class="cap-bar"><div class="cap-bar-fill"></div></div>
-          <div class="cap-note">海外运维 / 需求拆解 / 故障排查 / 系统优化 / 本地化适配</div>
+          <div class="cap-note" data-i18n="cap_r4_note">海外运维 / 需求拆解 / 故障排查 / 系统优化 / 本地化适配</div>
         </div>
         <div class="cap-row reveal" style="--w:80%">
           <div class="cap-head">
-            <div class="cap-name">培训与知识管理 <span class="en">Training & KM</span></div>
+            <div class="cap-name" data-i18n="cap_r5_name">培训与知识管理 <span class="en">Training & KM</span></div>
             <div class="cap-years">4 YRS</div>
           </div>
           <div class="cap-bar"><div class="cap-bar-fill"></div></div>
-          <div class="cap-note">培训体系搭建 / 知识库建设 / 手册制作 / workshop / 团队赋能</div>
+          <div class="cap-note" data-i18n="cap_r5_note">培训体系搭建 / 知识库建设 / 手册制作 / workshop / 团队赋能</div>
         </div>
         <div class="cap-row reveal" style="--w:72%">
           <div class="cap-head">
-            <div class="cap-name">数据分析 <span class="en">Data Analysis</span></div>
+            <div class="cap-name" data-i18n="cap_r6_name">数据分析 <span class="en">Data Analysis</span></div>
             <div class="cap-years">3 YRS</div>
           </div>
           <div class="cap-bar"><div class="cap-bar-fill"></div></div>
-          <div class="cap-note">数据诊断 / 可视化呈现 / 合规审计 / KPI 追踪 / 报告输出</div>
+          <div class="cap-note" data-i18n="cap_r6_note">数据诊断 / 可视化呈现 / 合规审计 / KPI 追踪 / 报告输出</div>
         </div>
       </div>
 
@@ -457,17 +460,17 @@
     <div class="section-tag reveal">
       <span class="num">[ 05 ]</span>
       <span>CREDENTIALS</span>
-      <span class="label-cn">资质与荣誉</span>
+      <span class="label-cn" data-i18n="cred_tag">资质与荣誉</span>
       <span class="spacer"></span>
-      <span class="meta">CERTS · 05 / AWARDS · 05</span>
+      <span class="meta" data-i18n="cred_tag_meta">CERTS · 05 / AWARDS · 05</span>
     </div>
 
     <div class="works-intro reveal">
-      <h2 class="works-title">
+      <h2 class="works-title" data-i18n="cred_title">
         五张证书，<br/>
         <em>把能力沉淀为资质</em>。
       </h2>
-      <p class="works-sub">
+      <p class="works-sub" data-i18n="cred_sub">
         项目管理 · 英语能力 · 学历认证<br/>
         支撑全球化项目交付与客户沟通。
       </p>
@@ -481,9 +484,9 @@
               <circle cx="12" cy="12" r="9"/>
               <path d="M 7 12 L 11 16 L 17 8"/>
             </svg>
-            <div class="cred-name">PMP 项目管理认证<span class="en">Project Management Professional</span></div>
+            <div class="cred-name" data-i18n="cred_c1_name">PMP 项目管理认证<span class="en">Project Management Professional</span></div>
           </div>
-          <div class="cred-issuer">PMI · International</div>
+          <div class="cred-issuer" data-i18n="cred_c1_issuer">PMI · International</div>
         </div>
       </a>
       <a href="#works" class="cred-link">
@@ -495,9 +498,9 @@
               <line x1="8" y1="9" x2="16" y2="9"/>
               <line x1="8" y1="13" x2="12" y2="13"/>
             </svg>
-            <div class="cred-name">英语专业八级<span class="en">TEM-8</span></div>
+            <div class="cred-name" data-i18n="cred_c2_name">英语专业八级<span class="en">TEM-8</span></div>
           </div>
-          <div class="cred-issuer">高等学校外语专业教学指导委员会</div>
+          <div class="cred-issuer" data-i18n="cred_c2_issuer">高等学校外语专业教学指导委员会</div>
         </div>
       </a>
       <a href="#works" class="cred-link">
@@ -509,9 +512,9 @@
               <path d="M 9 3 L 9 6 M 15 3 L 15 6"/>
               <text x="12" y="17" font-family="JetBrains Mono" font-size="6" text-anchor="middle" fill="currentColor" stroke="none">EN</text>
             </svg>
-            <div class="cred-name">英语专业四级<span class="en">TEM-4</span></div>
+            <div class="cred-name" data-i18n="cred_c3_name">英语专业四级<span class="en">TEM-4</span></div>
           </div>
-          <div class="cred-issuer">高等学校外语专业教学指导委员会</div>
+          <div class="cred-issuer" data-i18n="cred_c3_issuer">高等学校外语专业教学指导委员会</div>
         </div>
       </a>
       <a href="#works" class="cred-link">
@@ -523,21 +526,21 @@
               <path d="M 16 17 L 16 4 L 20 4 L 20 17 Z"/>
               <line x1="2" y1="20" x2="22" y2="20"/>
             </svg>
-            <div class="cred-name">南昌大学 · 翻译专业<span class="en">Bachelor of Arts</span></div>
+            <div class="cred-name" data-i18n="cred_c4_name">南昌大学 · 翻译专业<span class="en">Bachelor of Arts</span></div>
           </div>
-          <div class="cred-issuer">211 / 双一流 · 本科</div>
+          <div class="cred-issuer" data-i18n="cred_c4_issuer">211 / 双一流 · 本科</div>
         </div>
       </a>
     </div>
 
     <div class="awards-block reveal">
-      <div class="awards-label">◆ AWARDS & RECOGNITIONS · 荣誉奖项</div>
+      <div class="awards-label" data-i18n="cred_awards_label">◆ AWARDS & RECOGNITIONS · 荣誉奖项</div>
       <ul class="awards-list">
-        <li>知识管理卓越金质奖 · 智能知识管理系统项目 <span class="year">2025</span></li>
-        <li>优秀学生干部 <span class="year">南昌大学</span></li>
-        <li>优秀学生奖学金 <span class="year">南昌大学</span></li>
-        <li>全国大学生文学作品大赛二等奖 <span class="year">南昌大学</span></li>
-        <li>全国大学生翻译比赛二等奖 <span class="year">南昌大学</span></li>
+        <li data-i18n="cred_award1">知识管理卓越金质奖 · 智能知识管理系统项目 <span class="year">2025</span></li>
+        <li data-i18n="cred_award2">优秀学生干部 <span class="year">南昌大学</span></li>
+        <li data-i18n="cred_award3">优秀学生奖学金 <span class="year">南昌大学</span></li>
+        <li data-i18n="cred_award4">全国大学生文学作品大赛二等奖 <span class="year">南昌大学</span></li>
+        <li data-i18n="cred_award5">全国大学生翻译比赛二等奖 <span class="year">南昌大学</span></li>
       </ul>
     </div>
   </section>
@@ -547,12 +550,12 @@
     <div class="section-tag reveal">
       <span class="num">[ 06 ]</span>
       <span>CONTACT</span>
-      <span class="label-cn">联 系</span>
+      <span class="label-cn" data-i18n="contact_tag">联 系</span>
       <span class="spacer"></span>
-      <span class="meta">RESPONSE WITHIN 24 HRS</span>
+      <span class="meta" data-i18n="contact_tag_meta">RESPONSE WITHIN 24 HRS</span>
     </div>
 
-    <h2 class="contact-headline reveal">
+    <h2 class="contact-headline reveal" data-i18n="contact_headline">
       目标方向：<em>海外项目</em> /<br/>
       <em>客户成功</em> / <em>产品运营</em>。
     </h2>
@@ -560,21 +563,21 @@
     <div class="contact-grid reveal-stagger">
 
       <div class="contact-item">
-        <div class="contact-label">EMAIL</div>
+        <div class="contact-label" data-i18n="contact_label1">EMAIL</div>
         <a href="mailto:pengqing00only@163.com" class="contact-value mono">pengqing00only<br/>@163.com</a>
       </div>
       <div class="contact-item">
-        <div class="contact-label">PHONE</div>
+        <div class="contact-label" data-i18n="contact_label2">PHONE</div>
         <a href="tel:18296937825" class="contact-value mono">182-9693-7825</a>
       </div>
       <div class="contact-item">
-        <div class="contact-label">LOCATION</div>
-        <span class="contact-value">苏州 · 江苏省</span>
+        <div class="contact-label" data-i18n="contact_label3">LOCATION</div>
+        <span class="contact-value" data-i18n="contact_val3">苏州 · 江苏省</span>
       </div>
       <div class="contact-item">
-        <div class="contact-label">WECHAT</div>
+        <div class="contact-label" data-i18n="contact_label4">WECHAT</div>
         <div class="contact-qr">
-          <img src="assets/wechat-qr.png" alt="彭情微信二维码" loading="lazy" />
+          <img src="assets/wechat-qr.png" alt="WeChat QR" loading="lazy" />
         </div>
       </div>
 
@@ -583,8 +586,8 @@
 
   <!-- ==================== FOOTER ==================== -->
   <footer class="footer">
-    <div>© 2026 · PENG QING · DESIGNED WITH PRECISION</div>
-    <div>BUILT IN SUZHOU · 苏州 · CHINA</div>
+    <div data-i18n="footer_left">© 2026 · PENG QING · DESIGNED WITH PRECISION</div>
+    <div data-i18n="footer_right">BUILT IN SUZHOU · 苏州 · CHINA</div>
   </footer>
 
   <script src="src/script.js"></script>
