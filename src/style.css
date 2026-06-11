@@ -418,10 +418,10 @@ section {
 /* Profile Media Row: Photo + Video */
 .profile-media {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
+  grid-template-columns: 1fr 1.2fr;
   gap: 48px;
   margin-bottom: 80px;
-  align-items: start;
+  align-items: center;
 }
 
 .profile-photo {
@@ -466,10 +466,14 @@ section {
 .video-container {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 9;
+  max-height: 70vh;
+  min-height: 360px;
   border: 1px solid var(--line-mid);
   overflow: hidden;
-  background: var(--bg-card);
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .video-container::before {
   content: "";
@@ -489,12 +493,10 @@ section {
 }
 .video-container iframe,
 .video-container video {
-  position: absolute;
-  inset: 0;
   width: 100%;
   height: 100%;
   border: none;
-  object-fit: cover;
+  object-fit: contain;
 }
 .video-caption {
   font-family: var(--f-mono);
