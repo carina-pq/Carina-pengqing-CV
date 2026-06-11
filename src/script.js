@@ -84,7 +84,7 @@ const translations = {
     cred_award5: '全国大学生翻译比赛二等奖 <span class="year">南昌大学</span>',
 
     contact_tag: '联 系', contact_tag_meta: 'RESPONSE WITHIN 24 HRS',
-    contact_headline: '目标方向：<em>海外项目</em> /<br/><em>SAP运维</em> / <em>客户成功</em>.',
+    contact_headline: '目标方向：<em>海外项目</em> /<br/><em>IT运维/业务需求分析</em>.',
     self_label: '◆ SELF EVALUATION · 自我评价',
     self_t1: '需求分析与数据分析',
     self_d1: '具备较强的需求敏感度与逻辑分析能力，善于从业务沟通中挖掘核心需求，输出规范化需求文档（PRD/BRD/Functional Specification）并推动落地。可使用 Excel（透视表、VLOOKUP）、SQL、Python 基础进行数据诊断与效果评估。',
@@ -181,7 +181,7 @@ const translations = {
     cred_award5: 'National Translation Competition 2nd Prize <span class="year">NCU</span>',
 
     contact_tag: 'CONTACT', contact_tag_meta: 'RESPONSE WITHIN 24 HRS',
-    contact_headline: 'Seeking: <em>Overseas PM</em> /<br/><em>SAP Ops</em> / <em>Customer Success</em>.',
+    contact_headline: 'Seeking: <em>Overseas PM</em> /<br/><em>IT Ops/Business Analysis</em>.',
     self_label: '◆ SELF EVALUATION',
     self_t1: 'Requirements Analysis & Data',
     self_d1: 'Strong business sensitivity and logical analysis skills. Skilled at uncovering core needs from business discussions and producing standardized requirement documents (PRD/BRD/Functional Specification). Proficient in Excel (PivotTables, VLOOKUP) with SQL and Python foundations for data diagnostics and impact assessment.',
