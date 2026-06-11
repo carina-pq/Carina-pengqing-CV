@@ -215,6 +215,14 @@ function switchLang(lang) {
     }
   });
 
+  // Switch video by language
+  document.querySelectorAll('.video-container video, .video-container iframe').forEach(el => {
+    el.style.display = el.dataset.lang === lang ? '' : 'none';
+  });
+  // Update video lang badge
+  const tag = document.getElementById('videoLangTag');
+  if (tag) tag.textContent = lang === 'zh' ? '中文' : 'EN';
+
   // Update lang toggle button text
   const toggle = document.getElementById('langToggle');
   if (toggle) {

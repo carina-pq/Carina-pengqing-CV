@@ -120,7 +120,11 @@
       </div>
       <div class="profile-video">
         <div class="video-container">
-          <iframe src="https://player.bilibili.com/player.html?isOutside=true&aid=1200000000&bvid=BV1xx411c7mD&cid=1500000000&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+          <span class="video-lang-tag" id="videoLangTag">中文</span>
+          <!-- 中文版视频 -->
+          <video class="video-zh" data-lang="zh" src="assets/video-intro-zh.MP4" controls playsinline preload="metadata"></video>
+          <!-- 英文版视频 -->
+          <video class="video-en" data-lang="en" src="assets/video-intro-en.MP4" controls playsinline preload="metadata" style="display:none"></video>
         </div>
         <p class="video-caption" data-i18n="about_video_cap">▶ 自我介绍视频 · 3 分钟了解我</p>
       </div>
